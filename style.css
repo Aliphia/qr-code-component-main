@@ -1,0 +1,44 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+*{
+    margin: 0;
+}
+  body {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit",sans-serif;
+    font-size: 15px;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width:375px ;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 1rem;
+}
+.img{
+    border-radius: 1rem;
+}
+.title{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 27px;
+}
+.text-group{
+    padding: 20px;
+    text-align: center;
+}
+.text{
+    color: hsl(220, 15%, 45%);
+}
